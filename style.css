@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10px;
+    max-width: 350px;
+    background: green;
+}
+
+.home-cont{
+    height: auto;
+    width: auto;
+    background-color: darkblue
+
+
+}
+
+.home-cont h3{
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.score{
+    background-color: red;
+    
+}
+
+.score p{
+    text-align: center;
+    padding: 15px 6px;
+}
