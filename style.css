@@ -5,35 +5,85 @@
     font-family: Verdana, sans-serif;
 }
 
+body{
+    background-color: rgb(13, 13, 71);   
+ 
+}
+
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 10px;
-    max-width: 350px;
-    background: green;
+    width: 260px;
+    min-height: 100vh;
+    transform: translateX(200%);
+    border-radius: 41px;
+    
 }
 
 .home-cont{
-    height: auto;
-    width: auto;
-    background-color: darkblue
-
+    background-color: rgb(13, 13, 71);
 
 }
 
+.foul-record{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+   
+}
+.foul-record .foul{
+    color: white;
+    font-size: 14px;
+}
+
+.foul-record .time{
+    color: red;
+    font-size: 20px;
+    background-color: black;
+}
 .home-cont h3{
     color: aliceblue;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .score{
-    background-color: red;
+    background-color: black;
+   margin-top: -10px;
+   border-radius: 4px;
+    
+}
+.score p{
+    color: rgb(231, 35, 35);
+    font-size: 45px;
+   
     
 }
 
 .score p{
     text-align: center;
-    padding: 15px 6px;
+    padding: 5px 6px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.home-cont button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+   
 }
