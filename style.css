@@ -25,6 +25,9 @@ body{
     background-color: rgb(13, 13, 71);
 
 }
+h3 > span{
+    color: red;
+}
 
 .foul-record{
     display: flex;
@@ -86,4 +89,10 @@ body{
     border-radius: 4px;
     cursor: pointer;
    
+}
+
+@media screen and (max-width:390px) {
+    .container{
+        transform: translateX(20%); 
+    }
 }
